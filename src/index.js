@@ -51,7 +51,7 @@ class MonacoEditor extends React.Component {
   }
   afterViewInit() {
     const { requireConfig } = this.props;
-    const publicPrefix = requireConfig.publicPrefix | '';
+    const publicPrefix = requireConfig.publicPrefix || '';
     const loaderUrl = requireConfig.url || publicPrefix + 'vs/loader.js';
     const context = this.props.context || window;
     const onGotAmdLoader = () => {
