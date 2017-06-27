@@ -1,5 +1,5 @@
 {
-  "name": "react-monaco-editor",
+  "name": "react-monaco-editor-fork",
   "version": "0.8.1",
   "description": "Monaco Editor for React",
   "main": "lib/index.js",
@@ -27,14 +27,14 @@
     "vscode"
   ],
   "authors": [
-    "Leon Shi <superRaytin@gmail.com>"
+    "Michael Paris <michael@scaphold.io>"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/superRaytin/react-monaco-editor/issues"
   },
-  "homepage": "https://github.com/superRaytin/react-monaco-editor",
-  "repository": "https://github.com/superRaytin/react-monaco-editor",
+  "homepage": "https://github.com/mikeparisstuff/react-monaco-editor",
+  "repository": "https://github.com/mikeparisstuff/react-monaco-editor",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.10.1",
